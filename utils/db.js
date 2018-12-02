@@ -1,5 +1,5 @@
 const mongoClient = require('mongodb').MongoClient;
-const url = 'mongodb://localhost:27017/aus-address-search';
+const url = 'mongodb://aus-search_mongo_1:27017/aus-address-search';
 
 module.exports = callback => {
   mongoClient.connect(url, {

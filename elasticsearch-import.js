@@ -1,7 +1,7 @@
 const db = require('./utils/db.js');
 const elasticsearch = require('elasticsearch');
 const client = new elasticsearch.Client({
-  host: 'localhost:9200'
+  host: 'aus-search_elasticsearch_1:9200'
 });
 
 db( db => {
